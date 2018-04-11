@@ -59,10 +59,9 @@
     color: #2e3192;
 }
 
-.webdev-title,
-.applications,
-.writing,
-.presentation {
-    color: #2e3192;
+.icon-button {
+    margin-top: 3px;
+    background-color: #2e3192;
+    color: white;
     font-size: 20px;
 }
