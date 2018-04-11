@@ -52,16 +52,18 @@
 }
 
 /* PROJECTS */
-.fa-laptop,
-.fa-file-code,
-.fa-edit,
-.fa-file-powerpoint {
-    color: #2e3192;
+.link-title {
+    color: #28abe3;
+    text-decoration: underline;
+    font-size: 25px;
 }
 
-.icon-button {
-    margin-top: 3px;
-    background-color: #2e3192;
-    color: white;
+.link-title-tag-line {
+    color: #2e3192;
     font-size: 20px;
+}
+
+.link-title-notes {
+    font-size: 15px;
+    color: black;
 }
