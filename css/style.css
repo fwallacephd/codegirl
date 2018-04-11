@@ -1,0 +1,65 @@
+/* BODY */
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+* {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dark-blue {
+    color: #2e3192;
+}
+
+.light-blue {
+    color: #28ABE3;
+}
+
+/* LOGO DISPLAY */
+.logo-display {
+    width: 65%;
+}
+
+.main-display-border-bottom {
+    border-bottom: 6px solid #2e3192;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-display-button {
+    background-color: #2e3192;
+    color: white;
+}
+
+/* ABOUT ME DISPLAY */
+.my-photo {
+    width: auto;
+    border-radius: 5%;
+}
+
+.about {
+    font-size: 20px;
+}
+
+.direction-button {
+    background-color: #2e3192;
+    color: white;
+}
+
+/* NAVBAR */
+
+
+/* LOGO */
+.logo {
+    margin-left: 2%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    height: 125px;
+    max-width: 100%;
+    background-color: #ffffff;
+}
