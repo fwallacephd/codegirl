@@ -51,7 +51,15 @@
     color: white;
 }
 
+.direction-button:hover {
+    color: black;
+}
+
 /* PROJECTS */
+.projects {
+    border-top: 6px solid #2e3192;
+}
+
 .link-title {
     color: #28abe3;
     text-decoration: underline;
@@ -61,9 +69,51 @@
 .link-title-tag-line {
     color: #2e3192;
     font-size: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .link-title-notes {
     font-size: 15px;
     color: black;
+}
+
+.project-image {
+    width: 100%;
+}
+
+/* SKILLSET & CONTACT ME */
+.contactme {
+    border-top: 6px solid #2e3192;
+}
+
+.skillset-heading,
+.contactme-heading {
+    text-align: center;
+    font-size: 25px;
+}
+
+.devicon-html5-plain-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-bootstrap-plain-wordmark,
+.devicon-javascript-plain,
+.devicon-jquery-plain-wordmark,
+.devicon-python-plain-wordmark,
+.devicon-slack-plain,
+.devicon-github-plain-wordmark {
+    color: #28abe3;
+    text-align: center;
+    font-size: 65px;
+}
+
+/* CONTACT ME */
+.fa-github-square,
+.fa-twitter-square,
+.fa-envelope,
+.fa-rss-square,
+.fa-linkedin-square {
+    color: #28abe3;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
 }
