@@ -62,7 +62,6 @@
 
 .link-title {
     color: #28abe3;
-    text-decoration: underline;
     font-size: 25px;
 }
 
@@ -80,6 +79,31 @@
 
 .project-image {
     width: 100%;
+}
+
+.more-projects {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.modal-button {
+    color: #2e3192;
+}
+
+.modal-button:hover {
+    color: black;
+}
+
+.modal-title {
+    color: #2e3192;
+}
+
+.modal-close {
+    background-color: #2e3192;
+    color: white;
 }
 
 /* SKILLSET & CONTACT ME */
@@ -116,4 +140,12 @@
     text-align: center;
     margin-left: 2px;
     margin-right: 2px;
+}
+
+.fa-github-square:hover,
+.fa-twitter-square:hover,
+.fa-envelope:hover,
+.fa-rss-square:hover,
+.fa-linkedin-square:hover {
+    color: black;
 }

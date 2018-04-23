@@ -88,18 +88,19 @@
   <!-- END PHOTO & SUMMARY -->
   <div class="row">
     <div class="col-md-3"></div>
-    <div class"col-md-9 text-center">
+    <div class="col-md-9 text-center">
         <br>
-        <button type="button" id="projects-button" class="btn btn-lg direction-button animated slideInUp">Projects</button>
+        <button type="button" class="btn btn-lg direction-button projects-button animated slideInUp">Projects</button>
         <a href="https://medium.com/@faithhfrankelwallace" target="_blank" class="btn btn-lg direction-button animated slideInUp" role="button">Blog</a>
-        <button type="button" id="presentation-button" class="btn btn-lg direction-button animated slideInUp">Presentations</button>
-        <button type="button" id="contact-button" class="btn btn-lg direction-button animated slideInUp">Contact Me</button>
+        <button type="button" class="btn btn-lg direction-button presentation-button animated slideInUp">Presentations</button>
+        <button type="button" class="btn btn-lg direction-button contact-button animated slideInUp">Contact Me</button>
         <br>
       </div>
     </div>
 </section>
 <!--END ABOUT ME SECTION -->
 
+<!-- PROJECTS SECTION-->
 <section id="projects-display" class="container-fluid">
  <!-- LOGO -->
   <div class="row align-items-center">
@@ -112,51 +113,145 @@
   </div>
   <!-- END LOGO -->
   <div class="row projects">
-    <div class="col-md-3">
+    <div class="col-md-3 text-center">
       <br>
       <!--image size 1000 in pixlr-->
       <!-- TIC TAC TOE -->
-      <p class="link-title text-center"><a class="" href="https://fwallacephd.github.io/marvel_tictactoe/" target="_blank"><strong>Tic Tac Toe:</strong></a></p>
-      <p class="link-title-tag-line text-center">Black Widow vs Hawkeye</p>
+      <p class="link-title text-center"><a class="link-title" href="https://fwallacephd.github.io/marvel_tictactoe/" target="_blank"><strong>Tic Tac Toe</strong></a></p>
+      <!--<p class="link-title-tag-line text-center">Black Widow vs Hawkeye</p>-->
       <img class="project-image img-fluid center-block" src="images/tictactoe.png" alt="Tic Tac Toe">
       <br>
-      <p class="link-title-notes text-center">Not your traditional game of tic tac toe. Themed as a game between MARVEL superheroes. Built with JavaScript and jQuery and fully responsive on mobile devices with Bootstrap </p>
+      <!--MODAL - ABOUT -->
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-link text-center modal-button" data-toggle="modal" data-target="#tictactoemodal">
+      Find Out More
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="tictactoemodal" tabindex="-1" role="dialog" aria-labelledby="tictactoelabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tictactoelabel">Not your typical Tic Tac Toe Game</h5>
+
+        </div>
+      <div class="modal-body link-title-notes text-center">
+        Themed as a game between MARVEL superheroes. Built with JavaScript and jQuery and fully responsive on mobile devices with Bootstrap.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn modal-close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+      </div>
     </div>
     <!-- TRANSLATOR -->
-    <div class="col-md-3">
+    <div class="col-md-3 text-center">
       <br>
-      <p class="link-title text-center"><a class="" href="https://fwallacephd.github.io/translatorGame/" target="_blank"><strong>Klingon Traslator:</strong></a></p>
-      <p class="link-title-tag-line text-center">A Duolingo App</p>
+      <p class="link-title text-center"><a class="link-title" href="https://fwallacephd.github.io/translatorGame/" target="_blank"><strong>Klingon Traslator</strong></a></p>
+      <!--<p class="link-title-tag-line text-center">A Duolingo App</p>-->
       <img class="project-image img-fluid center-block" src="images/klingon.png" alt="Klingon Translator">
       <br>
-      <p class="link-title-notes text-center">A (mini) recreation of the Duolingo App. With my unique spin on it: Klingon. Built with JavaScript and jQuery and fully responsive on mobile devices with Bootstrap.</p>
+      <!--MODAL - ABOUT -->
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-link text-center modal-button" data-toggle="modal" data-target="#klingonmodal">
+      Find Out More
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="klingonmodal" tabindex="-1" role="dialog" aria-labelledby="klingonlabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="klingonlabel">A Duolingo App</h5>
+
+        </div>
+      <div class="modal-body link-title-notes text-center">
+        A (mini) recreation of the Duolingo App. With my unique spin on it: Klingon. Built with JavaScript and jQuery and fully responsive on mobile devices with Bootstrap.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn modal-close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+      </div>
     </div>
     <!-- HERO GALLERY -->
-    <div class="col-md-3">
+    <div class="col-md-3 text-center">
       <br>
-      <p class="link-title text-center"><a class="" href="https://fwallacephd.github.io/herogallery/" target="_blank"><strong>Hero Gallery:</strong></a></p>
-      <p class="link-title-tag-line text-center">An Interactive Fan Site</p>
+      <p class="link-title text-center"><a class="link-title" href="https://fwallacephd.github.io/herogallery/" target="_blank"><strong>Hero Gallery</strong></a></p>
+      <!--<p class="link-title-tag-line text-center">An Interactive Fan Site</p>-->
       <img class="project-image img-fluid center-block" src="images/herogallery.png" alt="Hero Gallery">
       <br>
-      <p class="link-title-notes text-center">A fun photo gallery of my heroes from the page and screen. Recognize any of them? Just click the images. Built with vanilla JavaScript. Click on the hero to find out more.</p>
+      <!--MODAL - ABOUT -->
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-link text-center modal-button" data-toggle="modal" data-target="#heromodal">
+      Find Out More
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="heromodal" tabindex="-1" role="dialog" aria-labelledby="heromodallabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="heromodallabel">An Interactive Fan Site</h5>
+
+        </div>
+      <div class="modal-body link-title-notes text-center">
+        A fun photo gallery of my heroes from the page and screen. Recognize any of them? Built with vanilla JavaScript. Click on the hero to find out more.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn modal-close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+      </div>
     </div>
     <!-- VIRTUAL PET -->
-    <div class="col-md-3">
+    <div class="col-md-3 text-center">
       <br>
-      <p class="link-title text-center"><a class="" href="https://fwallacephd.github.io/VirtualPet/" target="_blank"><strong>K9:</strong></a></p>
-      <p class="link-title-tag-line text-center">A Virtual Pet</p>
+      <p class="link-title text-center"><a class="link-title" href="https://fwallacephd.github.io/VirtualPet/" target="_blank"><strong>K9</strong></a></p>
+      <!--<p class="link-title-tag-line text-center">A Virtual Pet</p>-->
       <img class="project-image img-fluid center-block" src="images/virtualpet.png" alt="Virtual Pet">
       <br>
-      <p class="link-title-notes text-center">A fully-functioning virtual pet created using vanilla JavaScript and designed to be responsive with Bootstrap. Go ahead, give K9 a treat or play with him. See what happens.</p>
+      <!--MODAL - ABOUT -->
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-link text-center modal-button" data-toggle="modal" data-target="#k9modal">
+      Find Out More
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="k9modal" tabindex="-1" role="dialog" aria-labelledby="kd9modallabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="k9modallabel">A Virtual Pet</h5>
+
+        </div>
+      <div class="modal-body link-title-notes text-center">
+        A fully-functioning virtual pet created using vanilla JavaScript and designed to be responsive with Bootstrap. Go ahead, give K9 a treat or play with him. See what happens.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn modal-close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+      </div>
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-md-12 text-center">
+     <br>
+      <p class="more-projects">Want to see more of my projects? Send an email <a href="mailto:fwallacephd@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a> or check out my GitHub repos <a href="https://github.com/fwallacephd" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>.</p>
     </div>
   </div>
   <div class="row align-items-center">
     <div class="col-md-12 text-center">
       <br>
-        <button type="button" id="about-button" class="btn btn-lg direction-button animated slideInUp">About</button>
+        <button type="button" class="btn btn-lg direction-button about-button animated slideInUp">About</button>
         <a href="https://medium.com/@faithhfrankelwallace" target="_blank" class="btn btn-lg direction-button animated slideInUp" role="button">Blog</a>
-        <button type="button" id="presentation-button" class="btn btn-lg direction-button animated slideInUp">Presentations</button>
-        <button type="button" id="contact-button" class="btn btn-lg direction-button animated slideInUp">Contact Me</button>
+        <button type="button" class="btn btn-lg direction-button presentation-button animated slideInUp">Presentations</button>
+        <button type="button" class="btn btn-lg direction-button contact-button animated slideInUp">Contact Me</button>
         <br>
     </div>
   </div>
@@ -184,13 +279,13 @@
   <div class="row align-items-center">
     <div class="col-md-2"></div>
     <div class="col-md-8 contact-icons text-center">
-      <a href="https://github.com/fwallacephd" target="_blank"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+      <a href="https://github.com/fwallacephd" target="_blank"><i class="fa fa-github-square fa-5x" aria-hidden="true"></i></a>
 
-      <a href="https://twitter.com/fwallacephd" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/fwallacephd" target="_blank"><i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></a>
 
-      <a href="mailto:fwallacephd@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+      <a href="mailto:fwallacephd@gmail.com"><i class="fa fa-envelope fa-5x" aria-hidden="true"></i></a>
 
-      <a href="https://www.linkedin.com/in/faithwallacephd/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/faithwallacephd/" target="_blank"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
     </div>
     <div class="col-md-2"></div>
   </div>
@@ -203,7 +298,7 @@
   </div>
 </section><!--END Section Skillset-->
 
-    <script src="js/jquery.js"></script>
+
     <script src="js/main.js"></script>
 
 </body>
