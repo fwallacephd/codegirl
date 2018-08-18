@@ -65,6 +65,10 @@
     font-size: 25px;
 }
 
+.other-link {
+    color: #28abe3;
+}
+
 .link-title-tag-line {
     color: #2e3192;
     font-size: 20px;
@@ -120,6 +124,12 @@ a:hover {
 .learning-styles {
     width: 200px'
 }
+
+/* Civic Hack */
+.civic-row {
+    border-top: 6px solid #2e3192;
+}
+
 
 /* SKILLSET & CONTACT ME */
 .contactme {
