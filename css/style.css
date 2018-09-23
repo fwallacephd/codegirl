@@ -1,11 +1,11 @@
 /* BODY */
 
-* {
+body {
     font-family: 'Oswald', sans-serif;
 }
 
 
-* {
+body {
     -ms-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -115,6 +115,11 @@ a:hover {
     border-top: 6px solid #2e3192;
 }
 
+.note {
+    margin-right: 20px;
+    font-size: 25px;  
+    
+}
 .presentation-image {
     border: 2px solid black;
     width: 100%;
